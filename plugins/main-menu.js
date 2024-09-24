@@ -192,7 +192,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp13 = 'https://telegra.ph/file/ba7c4a3eb7bf3d892b0c8.mp4'
     let pp14 = 'https://tinyurl.com/ymlqb6ml'
     let pp15 = 'https://tinyurl.com/ykv7g4zy'
-    let img = await (await fetch(`https://f.uguu.se/BWqYWAQb.jpg`)).buffer()
+    let img = await (await fetch(`https://th.bing.com/th/id/R.61ee3e13c24b9bd973263687b644ba61?rik=1v2bMpUhoWwnCw&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f345b8558c2bef546408791b452f921212c10658a.jpg&ehk=OIVREZ9U3Nt%2f1yS2Ohv2AgzgFKEalp9FOYDQMOzqmUk%3d&risl=&pid=ImgRaw&r=0`)).buffer()
     await m.react('✨')
    // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
     await conn.sendFile(m.chat, img, 'thumbnail.jpg', text.trim(), m, null, rcanal)
