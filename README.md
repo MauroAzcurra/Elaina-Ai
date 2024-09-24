@@ -9,3 +9,5 @@
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaoZXbk6RGJNYQVP8r27)
 
 </details>
+
+## TRANKS DANIEL AND TEAM!!
