@@ -47,12 +47,12 @@ let handler = async(m, { conn, usedPrefix, command, text }) => {
         videoMessage: await createVideo(lucuy.play)
       }),
       nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({
-        buttons: [
+/*        buttons: [
           {
             "name": "quick_reply",
             "buttonParamsJson": `{"display_text":"Buscar De Nuevo ","id":".ttsearchslide ${text}"}`
           }
-        ]
+        ]*/
       })
     });
   }
