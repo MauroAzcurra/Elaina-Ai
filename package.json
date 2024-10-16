@@ -2,7 +2,7 @@
 	"name": "Elaina Ai",
 	"version": "6.0.0",
 	"description": "Simple WhatsApp Bot Multi Device",
-	"main": "starlights.js",
+	"main": "elaina.js",
 	"type": "module",
 	"directories": {
 		"lib": "lib",
@@ -25,16 +25,16 @@
 		"MD",
 		"baileys-md"
 	],
-	"homepage": "https://github.com/StarlightsTeam/Ai-Hoshino",
+	"homepage": "https://github.com/MauroAzcurra/Elaina-Ai",
 	"author": {
-		"name": "おDanịel.xyz⁩"
+		"name": "MauroAzcurra"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/StarlightsTeam/Ai-Hoshino.git"
+		"url": "git+https://github.com/MauroAzcurra/Elaina-Ai.git"
 	},
 	"bugs": {
-		"url": "https://github.com/StarlightsTeam/Ai-Hoshino/issues"
+		"url": "https://github.com/MauroAzcurra/Elaina-Ai/issues"
 	},
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
